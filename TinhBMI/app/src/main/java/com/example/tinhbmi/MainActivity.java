@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         buttontinhbmi = findViewById(R.id.button_tinhbmi);
         textviewketqua = findViewById(R.id.textview_ketqua);
         textviewnhanxet = findViewById(R.id.textview_nhanxet);
-
+        edittextcannang.setText("0");
+        edittextchieucao.setText("0");
         buttontinhbmi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
